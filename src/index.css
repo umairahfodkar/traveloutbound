@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* .slick-slide > div {
+    margin: 0 10px;
+    padding: 1rem;
+} */
+
+
+
+/* Your existing styles for slick slider */
+.slick-slide > div {
+    margin: 0 8px;
+    padding: 1rem;
+}
+
+.popular-slider .slick-slide > div {
+    margin: 0 10px;
+    
+}
+
+/* Default padding for larger devices */
+.testimonial-slider .slick-slide > div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 8rem; /* Adjust the top padding value as needed */
+    padding-bottom: 4rem;
+}
+
+/* Adjust padding for tablets */
+@media (max-width: 768px) {
+    .testimonial-slider .slick-slide > div {
+        padding-left: 5rem; /* Adjust left padding for tablets */
+        padding-right: 5rem; /* Adjust right padding for tablets */
+        padding-top: 6.5rem; /* Adjust the top padding value for tablets */
+        padding-bottom: 2rem; /* Adjust the bottom padding value for tablets */
+    }
+}
+
+/* Adjust padding for mobile devices */
+@media (max-width: 480px) {
+    .testimonial-slider .slick-slide > div {
+        padding-left: 0.5rem; /* Adjust left padding for mobile */
+        padding-right: 1.5rem; /* Adjust right padding for mobile */
+        padding-top: 8rem; /* Adjust the top padding value for mobile */
+        padding-bottom: 3rem; /* Adjust the bottom padding value for mobile */
+    }
+}
+
+
+
+/* Default padding for larger devices */
+.destination-slider .slick-slide > div {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+
+/* Adjust padding for smaller devices (e.g., tablets) */
+@media (max-width: 768px) {
+    .destination-slider .slick-slide > div {
+        padding-top: 5rem; /* Adjust as needed */
+        padding-bottom: 5rem; /* Adjust as needed */
+        padding-left: 1rem; /* Adjust as needed */
+    }
+}
+
+/* Adjust padding for even smaller devices (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .destination-slider .slick-slide > div {
+        padding-left: 0.5rem; /* Adjust left padding for mobile */
+        padding-right: 0.5rem;
+        padding-top: 3rem; /* Adjust as needed */
+        padding-bottom: 3rem; /* Adjust as needed */
+        padding-left: 0.5rem; /* Adjust as needed */
+    }
+}
+
+
+
+.herosection-slider .slick-slide > div {
+    margin: 0 20px;
+    padding-top: 7rem; /* Adjust the top padding value as needed */
+    padding-bottom: 7rem;
+
+    }
+
+
+
+  
+  
+  
+
+
+
