@@ -39,18 +39,19 @@ return (
 
 <div className="address text-white py-1">
 <h6 className='font-canada'>Address</h6>
-<p className='font-canada'>Lorem ipsum dolor sit amet. Ut</p>
+<p className='font-canada'>Raghuleela Mega Mall, Kandivali (W), Mumbai 400067, Maharashtra, India</p>
 </div>
 
 <div className="phone text-white py-1">
 <h6 className='font-canada'>Phone</h6>
-<p className='font-canada'>9234567891</p>
+<p className='font-canada'>9619932786</p>
+<p className='font-canada'>9619932771</p>
 
 </div>
 
 <div className="email text-white py-1">
 <h6 className='font-canada'>Email</h6>
-<p className='font-canada'>Lorem ipsum </p>
+<p className='font-canada'>info@traveloutbound.com</p>
 
 </div>
 
