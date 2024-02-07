@@ -110,6 +110,9 @@ import clientbg from '../assets/images/clientbgg.png';
 import clientimg from '../assets/images/clientimg.png';
 import clientimg2 from '../assets/images/client2.png';
 import clientimg3 from '../assets/images/client3.png';
+import test1 from '../assets/images/test1.jpg';
+import test2 from '../assets/images/test2.jpg';
+
 
 
 import { RiDoubleQuotesR } from 'react-icons/ri';
@@ -207,7 +210,7 @@ const ClientTestimonial = () => {
     {
       name: 'Umairah Fodkar',
       testimonial: 'Expressing gratitude for the exceptional service received. Looking forward to future adventures with Travel Outbound. Wishing abundant blessings and joy for the journeys ahead!',
-      image:clientimg,
+      image:test2,
     },
     {
       name: 'Pratixa',
@@ -222,7 +225,7 @@ const ClientTestimonial = () => {
     {
       name: 'Saloni Jain',
       testimonial: 'Expressing gratitude for the exceptional service received. Looking forward to future adventures with Travel Outbound. Wishing abundant blessings and joy for the journeys ahead!',
-      image: clientimg,
+      image: test1,
     },
    
   ];

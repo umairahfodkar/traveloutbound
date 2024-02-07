@@ -17,22 +17,27 @@ return (
 </div>
 <p class="md:text-center text-white py-2 font-canada">Social Networks</p>
 <div className="social-icon-box sm:ml-14 flex gap-4">
-<img src={InstagramLogo} alt="My Image" className='w-[25px] h-[25px]'/>
-<img src={FbLogo} alt="My Image" className='w-[25px] h-[25px]' />
-<img src={WhatsappLogo} alt="My Image" className='w-[25px] h-[25px]' />
+<a href="https://www.instagram.com/_traveloutbound_?igsh=YnpibjYybnNhdzlx" target="_blank" rel="noopener noreferrer">
+  <img src={InstagramLogo} alt="My Image" className='w-[25px] h-[25px]' />
+</a>
+
+<a href="https://www.facebook.com/traveloutbound97" target="_blank" rel="noopener noreferrer">
+  <img src={FbLogo} alt="My Image" className='w-[25px] h-[25px]' />
+</a>
+
 
 </div>
 
 </div>
 
 <div className="linksbox text-white mt-2 ml-3">
-<a href="" className='block font-canada py-2 font-canada'>About Us</a>
-<a href="" className='block font-canada py-2 font-canada'>Our Services</a>
-<a href="" className='block font-canada py-2 font-canada'>Our Gallery</a>
-<a href="" className='block font-canada py-2 font-canada'>Testimonials</a>
-<a href="" className='block font-canada py-2 font-canada'>Contact Us</a>
-
+  <a href="/about" className='block font-canada py-2 font-canada'>About Us</a>
+  <a href="/service" className='block font-canada py-2 font-canada'>Our Services</a>
+  <a href="/Itenary" className='block font-canada py-2 font-canada'>Our Gallery</a>
+  {/* <a href="" className='block font-canada py-2 font-canada'>Testimonials</a> */}
+  <a href="/contact" className='block font-canada py-2 font-canada'>Contact Us</a>
 </div>
+
 
 <div className="contactinfo mt-2 ml-3">
 <h2 class="text-[#005293] text-[30px]">CONTACT US</h2>

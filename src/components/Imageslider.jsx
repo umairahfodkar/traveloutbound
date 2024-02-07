@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -126,6 +127,7 @@ const SliderComponent = () => {
 
 
 const App = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col lg:flex-row sm:p-0 mt-24 bg-gray">
       {/* Shadow container on the left side */}
@@ -135,7 +137,10 @@ const App = () => {
           <h1 className="text-2xl text-[#005293] font-bold mb-4">Destinations</h1>
           <p className='text-lg  mb-4'>We offer a perfect variety of experiences</p>
           {/* Button */}
-          <button className="bg-[#11B99F]   hover:bg-black text-white font-bold py-2 px-4 rounded">
+          <button
+            className="bg-[#11B99F]   hover:bg-black text-white font-bold py-2 px-4 rounded"
+            onClick={() => navigate('/itenary')} // Navigate to itenary page
+          >
             Explore More
           </button>
         </div>

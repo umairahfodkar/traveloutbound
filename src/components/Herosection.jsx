@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import herosec from '../assets/images/herosec.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import turkey from '../assets/images/Turkey.png';
-import paris from '../assets/images/Paris.png';
-import india from '../assets/images/india.png';
-import greece from '../assets/images/Greece.png';
-import dubai from '../assets/images/Dubai.png';
-import bali from '../assets/images/Bali.png';
-import africa from '../assets/images/Africa.png';
+import turkey from '../assets/images/turkeyyy.png';
+import paris from '../assets/images/parisss.png';
+import india from '../assets/images/Indiaaa.png';
+import greece from '../assets/images/greecee.png';
+import dubai from '../assets/images/dubaiii.png';
+import bali from '../assets/images/africaaaa (2).png';
+import africa from '../assets/images/africaaaa (1).png';
 import Slider from 'react-slick';
 
 export default function Herosection() {
