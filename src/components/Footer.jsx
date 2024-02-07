@@ -1,5 +1,5 @@
 import React from 'react'
-import InteriorLogo from '../assets/images/nav.png';
+import InteriorLogo from '../assets/images/footlogo.png';
 import InstagramLogo from'../assets/images/instagram.png';
 import FbLogo from'../assets/images/Facebook.png';
 import WhatsappLogo from'../assets/images/Whatsapp.png';

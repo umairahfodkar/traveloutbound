@@ -109,7 +109,7 @@
 
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from '../assets/images/nav.png';
+import logo from '../assets/images/navv.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -127,7 +127,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between  items-center py-4 sm:h-24 w-full mx-auto bg-[#E6E7E9] px-2 sm:px-4 text-black'>
-      <img className='w-[200px] sm:w-[300px]' src={logo} alt="" />
+      <img className='w-[300px] sm:w-[400px]' src={logo} alt="" />
       
       <ul className='hidden lg:flex'>
         <li className={`p-4 font-bold text-xl text-[#005393] ${activeLink === '/' ? 'text-green-500' : ''}`}>

@@ -112,6 +112,11 @@ import clientimg2 from '../assets/images/client2.png';
 import clientimg3 from '../assets/images/client3.png';
 import test1 from '../assets/images/test1.jpg';
 import test2 from '../assets/images/test2.jpg';
+import test3 from '../assets/images/test3.png';
+import test4 from '../assets/images/test4.png';
+import test5 from '../assets/images/test5.png';
+import test6 from '../assets/images/test6.png';
+
 
 
 
@@ -208,24 +213,24 @@ const ClientTestimonial = () => {
 
   const testimonialData = [
     {
-      name: 'Umairah Fodkar',
-      testimonial: 'Expressing gratitude for the exceptional service received. Looking forward to future adventures with Travel Outbound. Wishing abundant blessings and joy for the journeys ahead!',
-      image:test2,
+      name: 'Manoj Pahuja',
+      testimonial: 'Very good support and guidance from you Nishant throughout the trip, Thankyou very much, God bless you dear.',
+      image:test3,
     },
     {
       name: 'Pratixa',
-      testimonial: 'My heartfelt thanks to Travel Outbound for a truly blessed and joyful trip. Your efforts made it exceptional. Eagerly looking forward to our next journey together. Love and light for abundant travels ahead!',
-      image: clientimg2,
+      testimonial: 'Thankyou for all your efforts. Our trip was truly joyful and blessed with divine love and light. We look forward to connecting with you again for another trip. My sincere gratitude to you and full team.',
+      image: test4,
     },
     {
-      name: 'Manoj Pahuja',
-      testimonial: 'Your exceptional support and guidance throughout the trip were invaluable, Nishant. Thank you immensely. God bless you abundantly for your kindness and assistance. Grateful beyond words.',
-      image: clientimg3,
+      name: 'Abhishek Shukla',
+      testimonial: "Thank you for arranging everything.. We had a wonderful experience through Travel Outbound you made my Marriage Anniversary special in Goa.. Trip was memorable❤️",
+      image: test5,
     },
     {
-      name: 'Saloni Jain',
-      testimonial: 'Expressing gratitude for the exceptional service received. Looking forward to future adventures with Travel Outbound. Wishing abundant blessings and joy for the journeys ahead!',
-      image: test1,
+      name: 'Mrs Usha and Mr Vijay Patel',
+      testimonial: 'Our Kerela trip was awesome, and all arrangements were great..We enjoyed a lot',
+      image: test6,
     },
    
   ];
