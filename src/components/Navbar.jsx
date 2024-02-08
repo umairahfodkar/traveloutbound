@@ -109,7 +109,7 @@
 
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from '../assets/images/navv.png';
+import logo from '../assets/images/navvvv.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {

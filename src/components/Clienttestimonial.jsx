@@ -115,7 +115,9 @@ import test2 from '../assets/images/test2.jpg';
 import test3 from '../assets/images/test3.png';
 import test4 from '../assets/images/test4.png';
 import test5 from '../assets/images/test5.png';
-import test6 from '../assets/images/test6.png';
+import test6 from '../assets/images/test8.png';
+import test7 from '../assets/images/test9.png';
+
 
 
 
@@ -228,8 +230,13 @@ const ClientTestimonial = () => {
       image: test5,
     },
     {
-      name: 'Mrs Usha and Mr Vijay Patel',
+      name: 'Mrs Usha Vijay Patel',
       testimonial: 'Our Kerela trip was awesome, and all arrangements were great..We enjoyed a lot',
+      image: test7,
+    },
+    {
+      name: 'Swara',
+      testimonial: `Thank you for organizing an amazing trip! We loved Munnar's hill station and Alleppey's beach. Everything was well-organized, including the hotels. We had a fantastic time in Kerala. Thank you for a wonderful trip!`,
       image: test6,
     },
    

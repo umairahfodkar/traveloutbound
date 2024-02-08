@@ -10,14 +10,14 @@ import iti8 from '../assets/images/iti8.png';
 
 export default function Itenary() {
   const itineraries = [
-    { image: iti1, text: 'South Africa' },
-    { image: iti2, text: 'Ladakh' },
+    { image: iti1, text: 'Kerala' },
+    { image: iti2, text: 'Uttarakhand' },
     { image: iti3, text: 'Darjeeling' },
     { image: iti4, text: 'Kashmir' },
-    { image: iti5, text: 'Kerala' },
+    { image: iti5, text: 'South Africa' },
     { image: iti6, text: 'Dubai' },
-    { image: iti7, text: 'Uttarakhand' },
-    { image: iti8, text: 'France' },
+    { image: iti7, text: 'France' },
+    { image: iti8, text: 'Ladakh' },
   ];
 
   return (
